@@ -1,0 +1,142 @@
+body {
+    width: 100%;
+    height: 700px;
+    background-image: url('tr.jpg');
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar {
+    height: 80px;
+    background-color: black;
+    width: 100%;
+    margin: -20px;
+}
+
+ul li {
+    display: inline;
+    margin: 30px 20px 20px 20px;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+ul {
+    margin-left: 100px;
+}
+
+.leftnav {
+    float: left;
+}
+
+.rightnav {
+    float: left;
+    margin: 17px 0 0 200px;
+}
+
+.main {
+    width: 100%;
+    height: 600px;
+}
+
+.left {
+    width: 67%;
+    height: 600px;
+    float: left;
+}
+
+.right {
+    width: 30%;
+    height: 600px;
+    float: left;
+}
+
+.content {
+    margin: 160px 0 0 50px;
+}
+
+h3 {
+    color: white;
+    font-size: 50px;
+    line-height: 5px;
+}
+
+h1 {
+    color: orange;
+    font-size: 50px;
+    box-shadow: inset;
+    line-height: 5px;
+}
+
+.join {
+    background-color: orange;
+    border: none;
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    box-shadow: inset;
+}
+
+.form {
+    background-color: white;
+    height: 400px;
+    width: 300px;
+    margin-top: 100px;
+    opacity: 0.9;
+    border-radius: 10px;
+}
+
+.login {
+    color: orange;
+    background-color: black;
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+table {
+    margin-top: 20px;
+}
+
+.a1 {
+    font-family: cursive;
+    font-weight: 200;
+    font-size: medium;
+    color: white;
+    padding: 10px 200px 10px 10px;
+}
+
+.in {
+    background-color: white;
+    height: 30px;
+    width: 200px;
+    border: none;
+    border-bottom: 3px solid orange;
+    margin-top: 30px;
+}
+
+.login1 {
+    color: black;
+    background-color: orange;
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.k2 {
+    line-height: 5px;
+}
+
+#ee {
+    color: orange;
+    text-decoration: none;
+}
+
+#dd{border: 2px solid orange;background-color: black;height: 28px;border-radius: 4px;width: 300px;color: white;}
+#oo{background-color: orange;margin-left: -6px;border: 2px solid orange;color: white;border-radius: 4px;height: 31px;}
