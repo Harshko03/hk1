@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <script src="https://cdn.tailwindcss.com"></script>
+   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+<style>
+   * {
+      margin: 0;
+      padding: 0;
+
+   }
+   @layer utilities {
+      /* Hide scrollbar for Chrome, Safari and Opera */
+      .no-scrollbar::-webkit-scrollbar {
+          display: none;
+      }
+     /* Hide scrollbar for IE, Edge and Firefox */
+      .no-scrollbar {
+          -ms-overflow-style: none;  /* IE and Edge */
+          scrollbar-width: none;  /* Firefox */
+    }
+  }
+</style>
+
+<body class="font-['gilroy']">
+   <div class="container-xl">
+      <div class="nav items-center  bg-transparent w-full h-20 fixed text-white flex justify-around">
+         <h1 class="text-xl">Clotho</h1>
+         <div class="links hidden sm:flex gap-10">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Shop</a>
+            <a href="">Contact</a>
+            <a class="bg-red-600 w-20 h-8 text-center" href="">FAQ</a>
+         </div>
+         <i class="ri-menu-line sm:hidden"></i>
+      </div>
+      <div
+         class=" flex flex-col sm:flex-row w-full h-[700px] bg-cover bg-center bg-[url('main-bg2.jpg')] justify-between items-center ">
+         <div class="container h-80 w-96  text-center flex ">
+            <div class="shop justify-center content-center">
+               <h1 class="text-white text-md sm:text-4xl font-normal leading-relaxed ">Discover the Latest Fashion
+                  Trends</h1>
+               <p class="text-white text-xs sm:text-lg leading-relaxed">Wellcome to our online clothing store,
+                  where you'll find a vast
+                  collection of stylish and high-quality apparel for all your need</p><br>
+               <a class="bg-red-600 p-3 text-center text-white" href="">Shop Now</a>
+
+            </div>
+
+         </div>
+         <div class="container h-80  w-96  text-center justify-center flex items-center">
+            <div class="expolre  content-center sm:block items-center">
+               <h1 class="text-white text-md sm:text-4xl font-normal ">Explore Here</h1>
+               <br>
+               <p class="text-white px-8 text-xs sm:text-lg leading-relaxed">Experience the Convenience of Online
+                  Shopping</p>
+               <br>
+               <a class="bg-red-600  p-3  text-white " href="">Explore More</a>
+
+            </div>
+
+         </div>
+      </div>
+ 
+<div class="featured-main">
+
+   <div class="fe-text bg-zinc-400 text-zinc-700 h-24 w-full  sm:text-4xl flex justify-center items-center">
+      <h1>Featured Products</h1>
+            </div>
+            <div class="fe-menu h-[500px] w-full bg-zinc-400">
+ 
+<ul class="flex  flex-row flex-nowrap  w-full overflow-x-scroll no-scrollbar justify-evenly items-center gap-10">
+   <li class="">
+      <img class="max-h-96 max-w-96 rounded" src="fe1.jpg">
+      <h1 class="text-center text-2xl pt-3">Heading2</h1>
+   </li>
+   <li class="">
+      <img class="max-h-96 max-w-96" src="fe1.jpg">
+
+      <h1>Heading2</h1>
+   </li>
+   <li class="">
+      <img class="max-h-96 max-w-96" src="fe1.jpg">
+      <h1>heading2</h1>
+   </li>
+   <li class="">
+      <img class="max-h-96 max-w-96" src="fe1.jpg">
+      <h1>heading2</h1>
+   </li>
+  
+</ul>
+            </div>
+
+
+</div>
+
+
+
+   </div>
+
+</body>
+
+</html>
